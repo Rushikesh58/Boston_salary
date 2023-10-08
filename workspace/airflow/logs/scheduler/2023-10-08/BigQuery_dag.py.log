@@ -1,0 +1,131 @@
+[2023-10-08T17:08:18.835+0000] {processor.py:157} INFO - Started process (PID=151) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:08:18.839+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:08:18.842+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:18.841+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:08:20.401+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:08:20.939+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:20.938+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-08T17:08:21.022+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:21.021+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-08T17:08:21.091+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:21.091+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-08T17:08:21.092+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:21.092+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:BigQuery_dag' as access control is unset.
+[2023-10-08T17:08:21.098+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:21.094+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:08:21.183+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:21.183+0000] {dag.py:2937} INFO - Creating ORM DAG for BigQuery_dag
+[2023-10-08T17:08:21.206+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:21.205+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:08:21.347+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 2.528 seconds
+[2023-10-08T17:08:52.544+0000] {processor.py:157} INFO - Started process (PID=154) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:08:52.549+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:08:52.552+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:52.551+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:08:53.093+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:08:53.153+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:53.152+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:08:53.263+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:08:53.262+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:08:53.511+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.982 seconds
+[2023-10-08T17:09:24.620+0000] {processor.py:157} INFO - Started process (PID=168) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:09:24.621+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:09:24.623+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:09:24.623+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:09:25.035+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:09:25.077+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:09:25.077+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:09:25.114+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:09:25.114+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:09:25.220+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.603 seconds
+[2023-10-08T17:09:55.916+0000] {processor.py:157} INFO - Started process (PID=171) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:09:55.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:09:55.919+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:09:55.919+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:09:56.287+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:09:56.339+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:09:56.338+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:09:56.380+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:09:56.380+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:09:56.497+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.585 seconds
+[2023-10-08T17:10:27.336+0000] {processor.py:157} INFO - Started process (PID=174) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:10:27.338+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:10:27.339+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:10:27.339+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:10:27.689+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:10:27.727+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:10:27.727+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:10:27.761+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:10:27.761+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:10:27.868+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.534 seconds
+[2023-10-08T17:10:58.557+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:10:58.561+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:10:58.564+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:10:58.563+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:10:58.928+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:10:58.973+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:10:58.972+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:10:59.013+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:10:59.012+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:10:59.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.583 seconds
+[2023-10-08T17:11:29.955+0000] {processor.py:157} INFO - Started process (PID=180) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:11:29.958+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:11:29.960+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:11:29.959+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:11:30.476+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:11:30.522+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:11:30.522+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:11:30.568+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:11:30.567+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:11:30.685+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.742 seconds
+[2023-10-08T17:12:01.264+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:12:01.266+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:12:01.267+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:12:01.267+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:12:01.649+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:12:01.693+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:12:01.692+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:12:01.731+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:12:01.731+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:12:01.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.576 seconds
+[2023-10-08T17:12:32.491+0000] {processor.py:157} INFO - Started process (PID=186) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:12:32.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:12:32.494+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:12:32.494+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:12:32.847+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:12:32.889+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:12:32.888+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:12:32.927+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:12:32.927+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:12:33.041+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.554 seconds
+[2023-10-08T17:13:03.735+0000] {processor.py:157} INFO - Started process (PID=189) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:03.737+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:13:03.738+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:03.738+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:04.149+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:04.200+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:04.199+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:13:04.238+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:04.238+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:13:04.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.620 seconds
+[2023-10-08T17:13:34.956+0000] {processor.py:157} INFO - Started process (PID=192) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:34.958+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:13:34.959+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:34.959+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:35.311+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:35.353+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:35.352+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:13:35.389+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:35.388+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:13:35.498+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.545 seconds
+[2023-10-08T17:13:54.387+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:54.389+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:13:54.391+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:54.390+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:54.796+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:13:54.840+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:54.840+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:13:54.878+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:13:54.877+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:13:55.006+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.622 seconds
+[2023-10-08T17:14:25.243+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:14:25.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:14:25.246+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:14:25.246+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:14:25.615+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:14:25.656+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:14:25.656+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:14:25.693+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:14:25.693+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:14:25.807+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.568 seconds
+[2023-10-08T17:14:56.159+0000] {processor.py:157} INFO - Started process (PID=201) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:14:56.161+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:14:56.162+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:14:56.162+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:14:56.546+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:14:56.587+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:14:56.587+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:14:56.625+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:14:56.624+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:14:56.740+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.585 seconds
+[2023-10-08T17:15:27.723+0000] {processor.py:157} INFO - Started process (PID=204) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:15:27.725+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:15:27.727+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:15:27.726+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:15:28.167+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:15:28.207+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:15:28.207+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:15:28.243+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:15:28.242+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:15:28.361+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.642 seconds
+[2023-10-08T17:15:59.109+0000] {processor.py:157} INFO - Started process (PID=207) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:15:59.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:15:59.112+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:15:59.112+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:15:59.537+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:15:59.583+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:15:59.583+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:15:59.628+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:15:59.627+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:15:59.753+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.649 seconds
+[2023-10-08T17:16:30.580+0000] {processor.py:157} INFO - Started process (PID=210) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:16:30.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:16:30.584+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:16:30.583+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:16:30.952+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:16:30.992+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:16:30.992+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:16:31.030+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:16:31.029+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:16:31.146+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.576 seconds
+[2023-10-08T17:17:01.724+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:17:01.726+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/BigQuery_dag.py for tasks to queue
+[2023-10-08T17:17:01.727+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:17:01.727+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:17:02.123+0000] {processor.py:839} INFO - DAG(s) dict_keys(['BigQuery_dag']) retrieved from /opt/airflow/dags/BigQuery_dag.py
+[2023-10-08T17:17:02.166+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:17:02.166+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-08T17:17:02.206+0000] {logging_mixin.py:151} INFO - [2023-10-08T17:17:02.206+0000] {dag.py:3696} INFO - Setting next_dagrun for BigQuery_dag to 2023-11-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-10-08T17:17:02.331+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/BigQuery_dag.py took 0.612 seconds

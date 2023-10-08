@@ -1,0 +1,26 @@
+[2023-10-08T17:17:24.214+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BigQuery_dag.Fetch_data_API manual__2023-10-08T17:17:18.435900+00:00 [queued]>
+[2023-10-08T17:17:24.243+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BigQuery_dag.Fetch_data_API manual__2023-10-08T17:17:18.435900+00:00 [queued]>
+[2023-10-08T17:17:24.244+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-08T17:17:24.301+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): Fetch_data_API> on 2023-10-08 17:17:18.435900+00:00
+[2023-10-08T17:17:24.306+0000] {standard_task_runner.py:57} INFO - Started process 226 to run task
+[2023-10-08T17:17:24.311+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'BigQuery_dag', 'Fetch_data_API', 'manual__2023-10-08T17:17:18.435900+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/BigQuery_dag.py', '--cfg-path', '/tmp/tmpd_ssu9zt']
+[2023-10-08T17:17:24.312+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask Fetch_data_API
+[2023-10-08T17:17:24.818+0000] {task_command.py:415} INFO - Running <TaskInstance: BigQuery_dag.Fetch_data_API manual__2023-10-08T17:17:18.435900+00:00 [running]> on host 7ba7f815fc28
+[2023-10-08T17:17:26.541+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='BigQuery_dag' AIRFLOW_CTX_TASK_ID='Fetch_data_API' AIRFLOW_CTX_EXECUTION_DATE='2023-10-08T17:17:18.435900+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-08T17:17:18.435900+00:00'
+[2023-10-08T17:17:30.037+0000] {python.py:194} INFO - Done. Returned value was:       INJURED POSTAL                      NAME  ... RETRO QUINN_EDUCATION    _id
+0         NaN  02186            Gavin,Donna M.  ...   NaN       12,812.39      1
+1         NaN  55419         Cassellius,Brenda  ...   NaN             NaN      2
+2         NaN  02152              Dempsey,John  ...   NaN             NaN      3
+3         NaN  02052          Demesmin,Stanley  ...   NaN       29,155.26      4
+4         NaN  02186              Smith,Sean P  ...   NaN       35,633.88      5
+...       ...    ...                       ...  ...   ...             ...    ...
+23199     NaN  02129  wheeler,Stephen clifford  ...   NaN             NaN  23200
+23200     NaN  02136             Harris,Gloria  ...   NaN             NaN  23201
+23201     NaN  02119       Jackson,Wanita Tina  ...   NaN             NaN  23202
+23202     NaN  02119              Paul,Desmond  ...   NaN             NaN  23203
+23203     NaN  02126         Robinson,Marvin L  ...   NaN             NaN  23204
+
+[23204 rows x 13 columns]
+[2023-10-08T17:17:30.869+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=BigQuery_dag, task_id=Fetch_data_API, execution_date=20231008T171718, start_date=20231008T171724, end_date=20231008T171730
+[2023-10-08T17:17:30.951+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-08T17:17:31.009+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

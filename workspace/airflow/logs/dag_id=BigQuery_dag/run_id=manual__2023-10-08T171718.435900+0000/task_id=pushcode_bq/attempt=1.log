@@ -1,0 +1,11 @@
+[2023-10-08T17:17:35.542+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BigQuery_dag.pushcode_bq manual__2023-10-08T17:17:18.435900+00:00 [queued]>
+[2023-10-08T17:17:35.567+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BigQuery_dag.pushcode_bq manual__2023-10-08T17:17:18.435900+00:00 [queued]>
+[2023-10-08T17:17:35.568+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-08T17:17:35.625+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): pushcode_bq> on 2023-10-08 17:17:18.435900+00:00
+[2023-10-08T17:17:35.633+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'BigQuery_dag', 'pushcode_bq', 'manual__2023-10-08T17:17:18.435900+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/BigQuery_dag.py', '--cfg-path', '/tmp/tmpzclqrumr']
+[2023-10-08T17:17:35.633+0000] {standard_task_runner.py:57} INFO - Started process 242 to run task
+[2023-10-08T17:17:35.635+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask pushcode_bq
+[2023-10-08T17:17:35.781+0000] {task_command.py:415} INFO - Running <TaskInstance: BigQuery_dag.pushcode_bq manual__2023-10-08T17:17:18.435900+00:00 [running]> on host 7ba7f815fc28
+[2023-10-08T17:17:36.878+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='BigQuery_dag' AIRFLOW_CTX_TASK_ID='pushcode_bq' AIRFLOW_CTX_EXECUTION_DATE='2023-10-08T17:17:18.435900+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-08T17:17:18.435900+00:00'
+[2023-10-08T17:17:38.106+0000] {_default.py:340} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2023-10-08T17:17:38.113+0000] {logging_mixin.py:151} INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=725825577420-unm2gnkiprugilg743tkbig250f4sfsj.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8081%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbigquery&state=aYj1r8L71mFX3WJ24ejkf0zTekRmnM&prompt=consent&access_type=offline
